@@ -1,0 +1,64 @@
+/* src/components/Profile/Profile.module.css */
+.profile {
+  width: 250px;
+  margin: auto;
+  background-color: #f3f6f9;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  padding: 20px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.tag,
+.location {
+  color: #757575;
+  font-size: 0.9em;
+}
+
+.stats {
+  display: flex;
+  background-color: #e9ecef;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stats li {
+  flex: 1;
+  padding: 10px;
+  border-top: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+}
+
+.stats li:last-child {
+  border-right: none;
+}
+
+.label {
+  display: block;
+  font-size: 0.85em;
+  color: #6c757d;
+}
+
+.quantity {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #333;
+}
