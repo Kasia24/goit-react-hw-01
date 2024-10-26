@@ -1,4 +1,4 @@
-import { useState } from 'react'
+/*import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -32,4 +32,25 @@ function App() {
   )
 }
 
-export default App
+export default App */
+
+// App.jsx
+import React from "react";
+import Profile from "./components/Profile/Profile";
+import userData from "./userData.json"; // Poprawna ścieżka importu
+
+const App = () => {
+  return (
+    <>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+    </>
+  );
+};
+
+export default App;
