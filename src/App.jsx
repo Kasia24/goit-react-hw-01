@@ -3,6 +3,8 @@ import Profile from "./Profile/profile";
 import FriendList from "./FriendList/FriendList";
 import userData from "./userData.json";
 import friends from "./FriendList/friends.json";
+import TransactionHistory from "./TransactionHistory/TransactionHistory";
+import transactions from "./transactions.json";
 
 const App = () => {
   return (
