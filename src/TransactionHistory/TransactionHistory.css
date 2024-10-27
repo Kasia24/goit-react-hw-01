@@ -3,7 +3,6 @@
   border-collapse: collapse;
   margin-top: 20px;
   margin: 10px;
-  text-align: center;
 }
 
 .transaction-history th,
@@ -17,6 +16,7 @@
   background-color: black;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 
 .transaction-history tr:nth-child(even) {
