@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "./Profile";
+import Profile from "./Profile/profile";
 import userData from "./userData.json";
 
 const App = () => {
