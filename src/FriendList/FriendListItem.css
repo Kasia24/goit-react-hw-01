@@ -5,6 +5,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #fff;
+  flex-direction: column;
 }
 
 .friend-avatar {
@@ -15,6 +16,7 @@
 .friend-name {
   font-weight: bold;
   margin-right: auto;
+  text-align: center;
 }
 
 .friend-status {

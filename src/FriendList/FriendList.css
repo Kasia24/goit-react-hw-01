@@ -2,8 +2,14 @@
   list-style: none;
   padding: 0;
   margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .friend-list-item {
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
