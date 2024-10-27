@@ -13,8 +13,9 @@
 }
 
 .transaction-history th {
-  background-color: #f3f3f3;
+  background-color: black;
   font-weight: bold;
+  color: white;
 }
 
 .transaction-history tr:nth-child(even) {
